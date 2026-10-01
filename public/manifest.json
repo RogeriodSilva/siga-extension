@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "test",
+    "version": "1.0.0",
+    "side_panel": {
+        "default_path": "index.html"
+    },
+    "background": {
+        "service_worker": "background.mjs",
+        "type": "module"
+    },
+    "permissions": [
+        "tabs",
+        "sidePanel",
+        "scripting",
+        "activeTab",
+        "nativeMessaging",
+        "webNavigation",
+        "storage"
+    ],
+    "host_permissions": ["http://*/*", "https://*/*"]
+}

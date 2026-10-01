@@ -1,4 +1,4 @@
-export default function FinalizarEventos(){
-    return <>
-    </>
+
+export default function FinalizarEventos() {
+
 }
